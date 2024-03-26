@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+   body{
+    margin-left: 25px;
+   }
+      div input {
+        margin-right: 20px;
+      }
+      div input[type="checkbox"] {
+        margin-right: 0px;
+      }
+      .box label {
+        margin-right: 20px;
+      }
+      .heading {
+        text-align: center;
+      }
+      .centre label {
+        margin-right: 130px;
+      }
+      .know input {
+        margin-right: 40px;
+      }
+      .ex {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .vmc label {
+        margin-right: 20px;
+      }
+      .aaa label {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      ul{
+        list-style: none;
+      }
+
+      h1{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    
+     
+    <h1>Student Application Form</h1>
+    
+    <form action="" method="#">
+   
+       <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your Name" required />
+  
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" />
+      </div>
+  
+      <br />
+      <div>
+        <label for="contact">Contact</label>
+        <input type="text" id="contact" inputmode="numeric" />
+  
+        <label for="whts">Whatsapp No</label>
+        <input type="text" id="whts" />
+      </div>
+      <br />
+  
+      <div>
+        <label for="em">Email ID</label>
+        <input type="email" id="em" />
+  
+        <label for="Add">Address</label>
+        <input type="text" id="Add" style="width: 400px" />
+      </div>
+      <br />
+  
+      <div>
+        <label for="ct">City</label>
+        <input type="email" id="ct" />
+  
+        <label for="st">State</label>
+        <input type="text" id="st" />
+  
+        <label for="pin">PinCode</label>
+        <input type="text" id="Add" />
+      </div>
+      <br />
+  
+      <div>
+        <label for="grd">Guardian Name</label>
+        <input type="text" id="grd" />
+  
+        <label for="grdc">Guardian Contact No</label>
+        <input type="text" id="grdc" />
+      </div>
+      <br />
+  
+      <div>
+        <label for="clg">College</label>
+        <input type="text" id="clg" />
+  
+        <label for="uni">University</label>
+        <input type="text" id="uni" />
+      </div>
+      <br />
+  
+      <div>
+        <label for="brch">Branch</label>
+        <input type="text" id="brch" />
+  
+        <label for="yr">College Graduation Year</label>
+        <input type="number" id="yr" />
+      </div>
+      
+   
+    <br />
+
+    <!-- Coure Details-->
+    <h3>Course Interested in (please tick the appropriate one)</h3>
+    <div class="box">
+      <div>
+        <input type="checkbox" id="cpp1" />
+        <label for="cpp1">Launchpad (DSA using C++)</label>
+
+        <input type="checkbox" id="crx" />
+        <label for="crx">Crux (DSA using Java) </label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="Sampoorna" />
+        <label for="Sampoorna"
+          >Sampoorna (DSA + Web Dev + Comp. Prog. + Interview Prep. &
+          Etc.)</label
+        >
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="Algo" />
+        <label for="Algo">Algo++ (DSA & Algo in C++)</label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="Java" />
+        <label for="Java">Algo. Java (DSA & Algo in JAVA)</label>
+        <input type="checkbox" id="Competitive" />
+        <label for="Competitive">Competitive Programming</label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="Web" />
+        <label for="Web">Web Development with Node.JS</label>
+        <input type="checkbox" id="Android" />
+        <label for="Android">Android App Development</label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="Machine" />
+        <label for="Machine">Machine Learning & Data Science</label>
+        <input type="checkbox" id="Development" />
+        <label for="Development">Web Development using Python-Django </label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="Interview" />
+        <label for="Interview">Interview Prep. with C++</label>
+        <input type="checkbox" id="nterview" />
+        <label for="nterview">Interview Prep. with JAVA</label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="System" />
+        <label for="System">System Design Live</label>
+        <input type="checkbox" id="Other" />
+        <label for="Other">Other</label>
+      </div>
+      <br />
+    </div>
+    <br />
+
+    <h3>
+      Which Centre are you interested in? (Please tick the appropriate one)
+    </h3>
+    <span class="centre">
+      <input type="radio" name="centre" id="centre1" />
+      <label for="centre1">Pitampura</label>
+      <input type="radio" name="centre" id="centre2" />
+      <label for="centre2"> Noida</label>
+    </span>
+    <br />
+    <br />
+
+    <h3>How do you come to know about us?</h3>
+    <span class="know">
+      <label for="relation1">Friends</label>
+      <input type="radio" name="relation" id="relation1" />
+      <label for="relation2">Your Own Research</label>
+      <input type="radio" name="relation" id="relation2" />
+      <label for="relation3">Social Media</label>
+      <input type="radio" name="relation" id="relation3" />
+      <label for="relation4">Advertisements</label>
+      <input type="radio" name="relation" id="relation4" />
+    </span>
+
+    <br />
+    <br /><br />
+    <span class="ex">Are you an ex-VMC student? </span>
+    <span class="vmc">
+      <input type="radio" name="Yes" id="Yes" />
+      <label for="Yes">Yes</label>
+      <input type="radio" name="Yes" id="No" />
+      <label for="No">No</label>
+    </span>
+    <br /><br />
+    <div class="aaa">
+      <div>
+        <label for="roll">If Yes, VMC Roll No.</label>
+        <input type="text" id="roll" />
+      </div>
+      <br />
+      <div>
+        <label for="referred"
+          >Name of Coding Blocks student who referred, if any</label
+        >
+        <input type="text" id="referred" />
+      </div>
+      <br />
+      <div>
+        <label for="Handled">Handled By </label>
+        <input type="text" id="Handled" />
+        <label for="referred"> Date</label>
+        <input type="date" id="referred" />
+        <label for="place"> Place</label>
+        <input type="text" id="place" />
+      </div>
+      <br />
+      <div>
+        <label for="Ref">Ref By </label>
+        <input type="text" id="Ref" />
+      </div>
+    </div>
+  </body>
+</html>

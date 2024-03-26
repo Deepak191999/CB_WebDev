@@ -1,0 +1,66 @@
+/*  select all the selector like id,element,class */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+/* .impText{
+    color: white;
+}
+p{
+    color: green;
+}
+.para{
+    color: blue;
+    background: green;
+}
+#para{
+    color: yellow;
+}
+
+
+/* desendent seleector: mtlb parent ke andr chil element */
+/* span div{
+    color: red;
+}
+ span div span{
+    color:brown;
+    background: orange;
+ }  */
+
+ /* Comnbinators */
+ /* 1  Direct child  '>'   */
+ /* 2  Immediate sibling '+'   */
+ /* 1  General sibling  '~'   */
+ 
+
+ /* direct child */
+ /* ul> li{
+    color: rgb(39, 19, 175);
+ } */
+
+ /* Immediate sibling  */
+ /* mtlb li ke niche li aye to vo Immediate sibling  hai , mgr div ke niche li aya to vo Immediate sibling  nhi hai */
+
+/* li + li{
+    color: chartreuse;
+} */
+
+/* General sibling */
+li ~li{
+    color: blueviolet;
+}
+
+
+
+/* STRUCUTRAL PSEUDO CLASS */
+
+li:first-child{
+    color: rgb(171, 3, 3);
+}
+li:last-child{
+    color: green;
+}
+li:nth-child(2n+1)
+{
+    color: yellow;
+}

@@ -1,0 +1,29 @@
+.div{
+    border: 1px solid red;
+}
+.img{
+
+    border: 1px solid blue;
+    width: 30%;
+    height: 30px;
+    float: left;
+}
+.text{
+    
+    border: 1px solid rgb(5, 249, 103);
+    width: 60%;
+    height: 95px;
+    float: right;
+}
+
+/* first thing to prevent parent from collapse */
+.div::after{
+     content: "";
+    display: block;
+    clear: both;
+}
+
+/* second thing to prevent parent from collapse */
+.clearfix{
+    clear: both;
+} 

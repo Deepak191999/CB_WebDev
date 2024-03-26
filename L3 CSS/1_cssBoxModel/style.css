@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.myDiv{
+    border: 1px dashed red;   /* solid ,dotted,dashed */
+    /* border-bottom: 1px dashed blue;   */
+   
+    /* top,right,bottom,left */
+    padding: 10px 5px;
+    margin: 10px 20px 30px 40px;    
+}

@@ -1,0 +1,42 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    /* wrap-reverse  jo cross axis element ko mirror wise direnction change kr degi */
+    /* (cross axis - y axis, main axis- x axis) */
+    /* flex-wrap: wrap-reverse; */
+    
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+
+    height: 900px;
+    /* flex-direction: column; */
+
+    /* justify-content: space-evenly; */
+    /* align-content: flex-end;  (y-axis ke niche end me) */
+
+    /* gap: 10px 30px; */
+
+    align-items: baseline;
+}
+.item{
+    /* height: 200px; */
+    width: 200px;
+    border: 3px solid red;
+    background-color: orange;
+    font-size: 100px;
+    margin: 20px;
+
+    /* display: inline-block;  (we use flex box) */
+} 
+.item-2{
+    padding-top: 250px;
+}
+
+.item-11{
+    order: -1;
+}
+.item-10{
+    order: -2;
+}
+
+

@@ -1,0 +1,38 @@
+.container{
+    width: 1200px;
+    height: 50px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+.loader{
+    background: blue;
+    height: 100%;
+    width: 30%;
+
+    /* shortcut */
+    /* animation: loader_animation 5S 2 forwards; */
+
+    animation-name: loader_animation;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    /* animation-fill-mode: forwards;   forward mtlb last me 100% pe ja kr rukega, agr nhi lga to initial point me jayega */
+}
+
+
+
+@keyframes loader_animation {
+ 0%{
+        width: 0%;
+}
+50%{
+    width: 60%;
+}
+
+80%{
+    width: 90%;
+}
+100%{
+    width: 100%;
+}
+}

@@ -1,0 +1,52 @@
+<!-- //chlna nhi ye -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Adder</title>
+  </head>
+  <style>
+    
+  </style>
+  <body>
+    <input type="file" id="imageInput" />
+    <img src="" id="imgFile" alt="" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
+
+    <script>
+      let input = document.querySelector("#imageInput");
+
+      input.addEventListener("change", (e) => {
+        let newImg = URL.createObjectURL(e.target.files[0]);
+
+        const img = document.getElementById("imgFile");
+
+        console.log(newImg); // ye url de dega jise hum blob khate hai
+
+        img.src = newImg;
+
+        const options={
+        maxSizeMb:1,
+      }
+
+      imageCompression(e.target.files[0],options).then((result) => {
+        let newBlob= URL.createObjectURL(e.target.files[0]);
+        img.src=newBlob
+
+      }).catch((err) => {
+        console.log("error")
+      });
+      });
+
+
+      
+    //   imageCompression(file:File,options:options)
+    
+    </script>
+
+    <!-- <script src="1.js"></script> //ye code gpt ka hai -->
+  </body>
+</html>

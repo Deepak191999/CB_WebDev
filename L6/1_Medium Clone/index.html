@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medium clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="trending.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <>
+    <div class="box bg-warning border border-dark"></div>
+
+    <nav
+      class="navbar position-fixed start-0 top-0 bg-warning d-flex justify-content-around w-100 p-4 border border-dark"
+    >
+      <div class="nav-logo"></div>
+
+      <div class="nav-links d-flex justify-content-around align-item-center">
+        <a class="nav-item" href="#">Our Story</a>
+        <a class="nav-item" href="#">Membership</a>
+        <a class="nav-item" href="#">Write</a>
+        <a class="nav-item" href="#">Sign in</a>
+        <button class="get-started bg-dark text-white border-0 p-1">
+          Get Started
+        </button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="header">
+        <div class="header-heading">Stay Curious</div>
+        <div class="header-description">
+          Discover stories, thinking, and expertise from writers on any topic.
+        </div>
+        <button class="header-button bg-dark text-white border-0 p-2">
+          Start Reading
+        </button>
+      </div>
+
+      <!-- TRENDING ARTICLES STARTS -->
+      <div class="trending-list">
+        <div class="trending-heading d-flex align-item-center">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/026/530/240/non_2x/round-uptrend-arrow-icon-vector.jpg"
+            alt="trending-logo"
+          />
+          <div class="trending-heading-text ms-2 fs-4">Trending on Medium</div>
+        </div>
+
+        <div
+          class="trending-articles d-flex flex-wrap justify-content-between mt-4 row-gap-4"
+        >
+          <!-- Atricle 1 Start here -->
+          <div class="trending-article trending-article-1 d-flex column-gap-3">
+            <div class="article-no">01</div>
+            <div class="article-detail flex-grow-1">
+              <div class="article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*rt1mE2Q0rmKsUcJX2ewFoA.png"
+                  alt=""
+                />
+                <div class="article-author-name ms-2">
+                  Sivan Hermon in Code Like A Girl
+                </div>
+              </div>
+              <div class="article-heading mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Starting with No: Why Most People Shouldn’t Be Managers</a
+                >
+              </div>
+              <div class="article-date mt-1">Jan 24 &sdot; 7 min read ✨</div>
+            </div>
+          </div>
+          <!-- Article Ends here -->
+
+          <!-- Atricle 2 Start here -->
+          <div class="trending-article trending-article-2 d-flex column-gap-3">
+            <div class="article-no">02</div>
+            <div class="article-detail flex-grow-1">
+              <div class="article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*tlSJZopCPn4cndd9KrDLPg.png"
+                  alt=""
+                />
+                <div class="article-author-name ms-2">
+                  The Conversation U.S. in Wise & Well
+                
+                </div>
+              </div>
+              <div class="article-heading mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  > Your Body Already Has a Built-in Weight Loss System that Works...
+                  </a
+                >
+              </div>
+              <div class="article-date mt-1">Jan 23 &sdot; 5 min read ✨</div>
+            </div>
+          </div>
+          <!-- Article Ends here -->
+
+          <!-- Atricle Start here -->
+          <div class="trending-article trending-article-3 d-flex column-gap-3">
+            <div class="article-no">03</div>
+            <div class="article-detail flex-grow-1">
+              <div class="article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*rt1mE2Q0rmKsUcJX2ewFoA.png"
+                  alt=""
+                />
+                <div class="article-author-name ms-2">
+                  Sivan Hermon in Code Like A Girl
+                </div>
+              </div>
+              <div class="article-heading mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Starting with No: Why Most People Shouldn’t Be Managers</a
+                >
+              </div>
+              <div class="article-date mt-1">Jan 24 &sdot; 7 min read ✨</div>
+            </div>
+          </div>
+          <!-- Article Ends here -->
+
+          <!-- Atricle Start here -->
+          <div class="trending-article trending-article-4 d-flex column-gap-3">
+            <div class="article-no">04</div>
+            <div class="article-detail flex-grow-1">
+              <div class="article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*rt1mE2Q0rmKsUcJX2ewFoA.png"
+                  alt=""
+                />
+                <div class="article-author-name ms-2">
+                  Sivan Hermon in Code Like A Girl
+                </div>
+              </div>
+              <div class="article-heading mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Starting with No: Why Most People Shouldn’t Be Managers</a
+                >
+              </div>
+              <div class="article-date mt-1">Jan 24 &sdot; 7 min read ✨</div>
+            </div>
+          </div>
+          <!-- Article Ends here -->
+
+          <!-- Atricle Start here -->
+          <div class="trending-article trending-article-5 d-flex column-gap-3">
+            <div class="article-no">05</div>
+            <div class="article-detail flex-grow-1">
+              <div class="article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*rt1mE2Q0rmKsUcJX2ewFoA.png"
+                  alt=""
+                />
+                <div class="article-author-name ms-2">
+                  Sivan Hermon in Code Like A Girl
+                </div>
+              </div>
+              <div class="article-heading mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Starting with No: Why Most People Shouldn’t Be Managers</a
+                >
+              </div>
+              <div class="article-date mt-1">Jan 24 &sdot; 7 min read ✨</div>
+            </div>
+          </div>
+          <!-- Article Ends here -->
+
+          <!-- Atricle Start here -->
+          <div class="trending-article trending-article-6 d-flex column-gap-3">
+            <div class="article-no">06</div>
+            <div class="article-detail flex-grow-1">
+              <div class="article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*rt1mE2Q0rmKsUcJX2ewFoA.png"
+                  alt=""
+                />
+                <div class="article-author-name ms-2">
+                  Sivan Hermon in Code Like A Girl
+                </div>
+              </div>
+              <div class="article-heading mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Starting with No: Why Most People Shouldn’t Be Managers</a
+                >
+              </div>
+              <div class="article-date mt-1">Jan 24 &sdot; 7 min read ✨</div>
+            </div>
+          </div>
+          <!-- Article Ends here -->
+        </div>
+      </div>
+    </div>
+    <!-- TRENDING ARTICLES ENDS -->
+
+    <hr class="horizontal-line" />
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="major-articles d-flex justify-content-between">
+        <div class="all-user-article">
+        <!-- start user article 1 -->
+        <div class="user-article d-flex justify-content-between ">
+          <!-- //article -->
+          <div class="user-article-detail">
+            <div class="user-article-author d-flex align-item-center">
+              <img
+                src="https://miro.medium.com/v2/resize:fill:25:25/1*1hJR6BEyB4fL0rtfGTuPgw.jpeg"
+                alt=""
+              />
+              <div class="article-author-name fs-6 ms-2">
+                Ryan Chin 📖 in In Living Color
+              </div>
+            </div>
+            <div class="user-article-heading fs-4 mt-1">
+              <a
+                href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                >Looking at a Familiar Place From a New Angle</a
+              >
+            </div>
+            <div class="user-article-text fs-7 mb-3">
+              A fly fisher discovers the wonders of a river’s surface
+            </div>
+            <!-- <div class="article-date mt-1 d-flex">
+                
+              <div class="fs-6">Jan 24 &sdot; 7 min read &sdot; Rivers ✨ </div>
+              <div>
+              <i class="bookmark fa-regular fa-bookmark"></i></div>
+            </div> -->
+            <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 24 &sdot; 7 min read &sdot; Leadership ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+           
+          </div>
+          <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*tuDplCLSYytSMXEvX_xNKw.jpeg" alt="" />
+        </div>
+         <!-- End user article -->
+
+         <!-- start user article 2 -->
+        <div class="user-article d-flex justify-content-between ">
+            <!-- //article -->
+            <div class="user-article-detail">
+              <div class="user-article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*RsfhVK8tQW9TPv-Q_2YtRw.png"
+                  alt=""
+                />
+                <div class="article-author-name fs-6 ms-2">
+                    Sivan Hermon in Code Like A Girl
+                </div>
+              </div>
+              <div class="user-article-heading fs-4 mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Starting with No: Why Most People Shouldn’t Be Managers</a
+                >
+              </div>
+              <div class="user-article-text fs-7 mb-3">
+                Why the desired title won’t give you what you’re looking for
+              </div>
+              <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 24 &sdot; 7 min read &sdot; Leadership ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+             
+            </div>
+            <img class="user-article-img" src="https://miro.medium.com/v2/da:true/resize:fill:250:168/0*8QQk-MfU-rylqsGH" alt="" />
+          </div>
+           <!-- End user article -->
+
+           
+           <!-- start user article 3-->
+        <div class="user-article d-flex justify-content-between ">
+            <!-- //article -->
+            <div class="user-article-detail">
+              <div class="user-article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*RsfhVK8tQW9TPv-Q_2YtRw.png"
+                  alt=""
+                />
+                <div class="article-author-name fs-6 ms-2">
+                   Dan Canon 📖 in I Taught the Law
+                </div>
+              </div>
+              <div class="user-article-heading fs-4 mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >The Trump Exception to the Constitution</a
+                >
+              </div>
+              <div class="user-article-text fs-7 mb-3">
+                The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.
+              </div>
+              <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 12 &sdot; 10 min read &sdot; Law ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+             
+            </div>
+            <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/0*IehneBNDnM0BoKZf.jpeg" alt="" />
+          </div>
+           <!-- End user article -->
+
+           
+           <!-- start user article 4 -->
+        <div class="user-article d-flex justify-content-between ">
+            <!-- //article -->
+            <div class="user-article-detail">
+              <div class="user-article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*4B1_1F-3oPiNlS6T_aBwWA.png"
+                  alt=""
+                />
+                <div class="article-author-name fs-6 ms-2">
+                    Polly Mackintosh
+                </div>
+              </div>
+              <div class="user-article-heading fs-4 mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >‘Medicine’: Is sober dancing the new ecstasy?</a
+                >
+              </div>
+              <div class="user-article-text fs-7 mb-3">
+                I’m on a boat in Amsterdam. It’s 8pm on a Friday and the walls are already wet with condensation. The topless man next to...
+              </div>
+              <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 7 &sdot; 6 min read &sdot; Dance ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+             
+            </div>
+            <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*3IcTfY6F7SFA2ys0aufuEg.jpeg" alt="" />
+          </div>
+           <!-- End user article -->
+
+           
+           <!-- start user article 5-->
+        <div class="user-article d-flex justify-content-between ">
+            <!-- //article -->
+            <div class="user-article-detail">
+              <div class="user-article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*4B1_1F-3oPiNlS6T_aBwWA.png"
+                  alt=""
+                />
+                <div class="article-author-name fs-6 ms-2">
+                    Michelle Wiles 🪄📈 in Embedded Brand Strategy
+                </div>
+              </div>
+              <div class="user-article-heading fs-4 mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Stanley hype and Samba cringe: Why products fall in and out of style</a
+                >
+              </div>
+              <div class="user-article-text fs-7 mb-3">
+                Do I really want the Stanley cup? Or do I want it because everyone else wants it?
+              </div>
+              <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 17 &sdot; 7 min read &sdot; Marketing ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+             
+            </div>
+            <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*cLczw913nHBiE4zpRn-QGA.png" alt="" />
+          </div>
+           <!-- End user article -->
+
+           
+           <!-- start user article 6 -->
+        <div class="user-article d-flex justify-content-between ">
+            <!-- //article -->
+            <div class="user-article-detail">
+              <div class="user-article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*mDhF9X4VO0rCrJvWFatyxg.png"
+                  alt=""
+                />
+                <div class="article-author-name fs-6 ms-2">
+                    Ida Persson in UX Collective
+                   
+                </div>
+              </div>
+              <div class="user-article-heading fs-4 mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  > If you want to be creative, you can’t be certain
+                 </a
+                >
+              </div>
+              <div class="user-article-text fs-7 mb-3">
+                Embracing ambiguity as a superpower
+              </div>
+              <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 24 &sdot; 4 min read &sdot; Creativity ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+             
+            </div>
+            <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*DJOLQ7gvg8nyVzWPWPbunw.jpeg" alt="" />
+          </div>
+           <!-- End user article -->
+  
+
+           <!-- repeat -->
+               <!-- start user article 7 -->
+        <div class="user-article d-flex justify-content-between ">
+            <!-- //article -->
+            <div class="user-article-detail">
+              <div class="user-article-author d-flex align-item-center">
+                <img
+                  src="https://miro.medium.com/v2/resize:fill:25:25/1*1hJR6BEyB4fL0rtfGTuPgw.jpeg"
+                  alt=""
+                />
+                <div class="article-author-name fs-6 ms-2">
+                  Ryan Chin 📖 in In Living Color
+                </div>
+              </div>
+              <div class="user-article-heading fs-4 mt-1">
+                <a
+                  href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                  >Looking at a Familiar Place From a New Angle</a
+                >
+              </div>
+              <div class="user-article-text fs-7 mb-3">
+                A fly fisher discovers the wonders of a river’s surface
+              </div>
+              <div class="article-date mt-1 d-flex">
+                  
+                <div class="fs-6">Jan 24 &sdot; 7 min read &sdot; Rivers ✨ </div>
+                <div>
+                <i class="bookmark fa-regular fa-bookmark"></i></div>
+              </div>
+             
+            </div>
+            <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*tuDplCLSYytSMXEvX_xNKw.jpeg" alt="" />
+          </div>
+           <!-- End user article -->
+  
+           <!-- start user article 8 -->
+          <div class="user-article d-flex justify-content-between ">
+              <!-- //article -->
+              <div class="user-article-detail">
+                <div class="user-article-author d-flex align-item-center">
+                  <img
+                    src="https://miro.medium.com/v2/resize:fill:25:25/1*RsfhVK8tQW9TPv-Q_2YtRw.png"
+                    alt=""
+                  />
+                  <div class="article-author-name fs-6 ms-2">
+                      Sivan Hermon in Code Like A Girl
+                  </div>
+                </div>
+                <div class="user-article-heading fs-4 mt-1">
+                  <a
+                    href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                    >Starting with No: Why Most People Shouldn’t Be Managers</a
+                  >
+                </div>
+                <div class="user-article-text fs-7 mb-3">
+                  Why the desired title won’t give you what you’re looking for
+                </div>
+                <div class="article-date mt-1 d-flex">
+                    
+                  <div class="fs-6">Jan 24 &sdot; 7 min read &sdot; Leadership ✨ </div>
+                  <div>
+                  <i class="bookmark fa-regular fa-bookmark"></i></div>
+                </div>
+               
+              </div>
+              <img class="user-article-img" src="https://miro.medium.com/v2/da:true/resize:fill:250:168/0*8QQk-MfU-rylqsGH" alt="" />
+            </div>
+             <!-- End user article -->
+  
+             
+             <!-- start user article 9-->
+          <div class="user-article d-flex justify-content-between ">
+              <!-- //article -->
+              <div class="user-article-detail">
+                <div class="user-article-author d-flex align-item-center">
+                  <img
+                    src="https://miro.medium.com/v2/resize:fill:25:25/1*RsfhVK8tQW9TPv-Q_2YtRw.png"
+                    alt=""
+                  />
+                  <div class="article-author-name fs-6 ms-2">
+                     Dan Canon 📖 in I Taught the Law
+                  </div>
+                </div>
+                <div class="user-article-heading fs-4 mt-1">
+                  <a
+                    href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                    >The Trump Exception to the Constitution</a
+                  >
+                </div>
+                <div class="user-article-text fs-7 mb-3">
+                  The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.
+                </div>
+                <div class="article-date mt-1 d-flex">
+                    
+                  <div class="fs-6">Jan 12 &sdot; 10 min read &sdot; Law ✨ </div>
+                  <div>
+                  <i class="bookmark fa-regular fa-bookmark"></i></div>
+                </div>
+               
+              </div>
+              <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/0*IehneBNDnM0BoKZf.jpeg" alt="" />
+            </div>
+             <!-- End user article -->
+  
+             
+             <!-- start user article 10 -->
+          <div class="user-article d-flex justify-content-between ">
+              <!-- //article -->
+              <div class="user-article-detail">
+                <div class="user-article-author d-flex align-item-center">
+                  <img
+                    src="https://miro.medium.com/v2/resize:fill:25:25/1*4B1_1F-3oPiNlS6T_aBwWA.png"
+                    alt=""
+                  />
+                  <div class="article-author-name fs-6 ms-2">
+                      Polly Mackintosh
+                  </div>
+                </div>
+                <div class="user-article-heading fs-4 mt-1">
+                  <a
+                    href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                    >‘Medicine’: Is sober dancing the new ecstasy?</a
+                  >
+                </div>
+                <div class="user-article-text fs-7 mb-3">
+                  I’m on a boat in Amsterdam. It’s 8pm on a Friday and the walls are already wet with condensation. The topless man next to...
+                </div>
+                <div class="article-date mt-1 d-flex">
+                    
+                  <div class="fs-6">Jan 7 &sdot; 6 min read &sdot; Dance ✨ </div>
+                  <div>
+                  <i class="bookmark fa-regular fa-bookmark"></i></div>
+                </div>
+               
+              </div>
+              <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*3IcTfY6F7SFA2ys0aufuEg.jpeg" alt="" />
+            </div>
+             <!-- End user article -->
+  
+             
+             <!-- start user article 11-->
+          <div class="user-article d-flex justify-content-between ">
+              <!-- //article -->
+              <div class="user-article-detail">
+                <div class="user-article-author d-flex align-item-center">
+                  <img
+                    src="https://miro.medium.com/v2/resize:fill:25:25/1*4B1_1F-3oPiNlS6T_aBwWA.png"
+                    alt=""
+                  />
+                  <div class="article-author-name fs-6 ms-2">
+                      Michelle Wiles 🪄📈 in Embedded Brand Strategy
+                  </div>
+                </div>
+                <div class="user-article-heading fs-4 mt-1">
+                  <a
+                    href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                    >Stanley hype and Samba cringe: Why products fall in and out of style</a
+                  >
+                </div>
+                <div class="user-article-text fs-7 mb-3">
+                  Do I really want the Stanley cup? Or do I want it because everyone else wants it?
+                </div>
+                <div class="article-date mt-1 d-flex">
+                    
+                  <div class="fs-6">Jan 17 &sdot; 7 min read &sdot; Marketing ✨ </div>
+                  <div>
+                  <i class="bookmark fa-regular fa-bookmark"></i></div>
+                </div>
+               
+              </div>
+              <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*cLczw913nHBiE4zpRn-QGA.png" alt="" />
+            </div>
+             <!-- End user article -->
+  
+             
+             <!-- start user article 12 -->
+          <div class="user-article d-flex justify-content-between ">
+              <!-- //article -->
+              <div class="user-article-detail">
+                <div class="user-article-author d-flex align-item-center">
+                  <img
+                    src="https://miro.medium.com/v2/resize:fill:25:25/1*mDhF9X4VO0rCrJvWFatyxg.png"
+                    alt=""
+                  />
+                  <div class="article-author-name fs-6 ms-2">
+                      Ida Persson in UX Collective
+                     
+                  </div>
+                </div>
+                <div class="user-article-heading fs-4 mt-1">
+                  <a
+                    href="https://code.likeagirl.io/starting-with-no-why-most-people-shouldnt-be-managers-00c23159bbb6"
+                    > If you want to be creative, you can’t be certain
+                   </a
+                  >
+                </div>
+                <div class="user-article-text fs-7 mb-3">
+                  Embracing ambiguity as a superpower
+                </div>
+                <div class="article-date mt-1 d-flex">
+                    
+                  <div class="fs-6">Jan 24 &sdot; 4 min read &sdot; Creativity ✨ </div>
+                  <div>
+                  <i class="bookmark fa-regular fa-bookmark"></i></div>
+                </div>
+               
+              </div>
+              <img class="user-article-img" src="https://miro.medium.com/v2/resize:fill:250:168/1*DJOLQ7gvg8nyVzWPWPbunw.jpeg" alt="" />
+            </div>
+             <!-- End user article -->
+         
+
+        </div>
+
+      <div class="article-categories">
+        <div class="heading fs-5 mb-3">
+          Discover more of what matters to you
+        </div>
+        <div class="buttons-group mb-4">
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+          <button class="course-select my-2">Programming</button>
+        </div>
+        <div class="more-topics fs-5">
+            See more Topics
+        </div>
+        <hr />
+        <divclass="buttons-group mb-4>
+        <button class="course1-select my-2">Help</button>
+        <button class="course1-select my-2">Status</button>
+        <button class="course1-select my-2">About</button>
+        <button class="course1-select my-2">Carerrs</button>
+        <button class="course1-select my-2">Blog</button>
+        <button class="course1-select my-2">Privacy</button>
+        <button class="course1-select my-2">Term</button>
+        <button class="course1-select my-2">Text to speech</button>
+        <button class="course1-select my-2">Teams</button>
+    </div>
+      </div>
+    </div>
+    </div>
+    <!-- </div> -->
+  </body>
+
+
+
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
+</html>

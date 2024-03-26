@@ -1,0 +1,25 @@
+.head{
+/* display: ; */
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: larger;
+}
+.navigation input{
+    margin-left: 50px;
+    padding: 5px 10px;
+}
+.labell::before{
+    
+    /* content: "\260E"; */
+    content: 1F50D;
+}
+
+li a{
+    list-style: none;
+    text-decoration: none;
+}

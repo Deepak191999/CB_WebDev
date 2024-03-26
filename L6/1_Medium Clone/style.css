@@ -1,0 +1,61 @@
+.nav-logo{
+    height: 40px;
+    width: 150px;
+    background-image: url('https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(1.2);
+}
+.navbar{
+    z-index: 2;
+}
+.nav-links{
+    width: 30%;
+    
+
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.get-started{
+    width: 20%;
+    border-radius: 40px;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 500px;
+}
+.container{
+    position: relative;
+    /* height: 900px; */
+    z-index: 1;
+    margin-top: 150px;
+}
+.header{
+    width: 50%;
+}
+.header-heading{
+    font-size: 100px;
+}
+.header-description{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.header-button{
+    width: 20%;
+    border-radius: 40px;
+padding: 20px;
+}
+
+.buttons-group{
+    display: flex;
+    justify-content: space-between; /* Justify content between buttons */
+    flex-wrap: wrap; 
+}

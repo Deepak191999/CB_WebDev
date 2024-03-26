@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-2</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .granfather,.father{
+
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .granfather{
+            position: relative;
+        }
+        .child{
+            border: 2px solid red;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        } 
+        
+    </style>
+</head>
+<!-- Nearest  -->
+<body class="ancestors">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore id ex, porro facere laudantium minus neque sequi eum ad nemo!</p>
+    <div class="granfather"> granfather
+        <div class="father"> father
+            <div class="child">
+                children
+            </div>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, molestiae?</p>
+</body>
+</html>

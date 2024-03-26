@@ -1,0 +1,150 @@
+.trending-heading img{
+    width: 30px;
+    
+}
+.trending-heading,
+.trending-heading img,
+.trending-heading-text{
+    /* border: 1px solid black; */
+}
+
+.trending-heading-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.trending-list{
+    margin-top: 130px;
+}
+
+.trending-articles{
+      /* border: 3px solid green; */
+}
+.trending-article{
+     /* border: 1px solid red; */
+     width: 30%;
+}
+
+.article-no{
+     /* border: 1px solid black; */
+    font-size: 34px;
+    font-weight: 300;
+    color: rgba(224, 23, 23, 0.572);
+    line-height: 1;
+}
+
+.article-author{
+    /* border: 2px solid green; */
+}
+.article-author img{
+    height: 20px;
+}
+
+.article-author-name {
+    font-size: 14px;
+}
+.article-heading a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.article-heading a:visited{
+    color: black;
+}
+
+
+
+
+/* -------------------------------------------Major Article---------------------------------- */
+.major-articles{
+    /* border: 2px solid black; */
+    height: 2000px;
+}
+.all-user-article{
+    width: 65%;
+    /* border: 2px solid red; */
+    height: 2000px;
+    
+}
+.article-categories{
+    /* border: solid 2px green; */
+    width: 30%;
+    height: 400px;
+    position: sticky;
+    top: 120px;
+}
+
+.course-select{
+text-decoration: none;
+border: none;
+padding: 9px 7px;
+border-radius: 20px;
+align-items: center;
+/* background: red; */
+}
+.heading{
+    font-weight: 600;
+}
+
+/* .buttons-group{
+    border: 2px solid rebeccapurple;
+    justify-content: space-between;
+} */
+
+.user-article{
+    margin-bottom: 60px;
+}
+
+.user-article-detail{
+    /* border: 2px solid green; */
+    width: 65%;
+    position: relative;
+}
+
+.user-article-img{
+    /* border: 2px solid blue; */
+    /* height: 40px;
+    width: 50px; */
+    width: 30%;
+}
+.user-article-heading a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.user-article-heading a:visited{
+   
+    color: black;
+ 
+}
+.bookmark{
+    right: 0;
+    position: absolute;
+    font-size: 30px;
+    bottom: 0;
+}
+.bookmark:hover{
+   background-color: gray;
+   cursor: pointer;
+}
+
+
+.more-topics{
+color: green;
+}
+
+.course1-select{
+    text-decoration: none;
+    border: none;
+    padding: 9px 17px;
+    border-radius: 20px;
+    align-items: center;
+    
+    }
+
+    .article-date{
+        position: relative;
+    }
+    
